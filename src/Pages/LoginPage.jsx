@@ -9,8 +9,8 @@ import classnames from 'classnames'
 const LoginPage = () => {
     const store = useSelector((store) => store)
     const dispatch = useDispatch( )
-    const [registrationNumber, setRegistrationNumber] = useState('')
-    const [password, setPassword] = useState('')
+    const [registrationNumber, setRegistrationNumber] = useState('ADMIN1002020')
+    const [password, setPassword] = useState('avishkar')
     const [error, setError] = useState({})
     const [isLoading, setIsLoading] = useState(false)
     const history = useHistory()
@@ -51,6 +51,10 @@ const LoginPage = () => {
                     <div className="d-flex justify-content-md-center align-items-center vh-100">
                         <div>
                             <h1 className="display-4 text-center">ADMIN</h1>
+                            <h6>credentials:<br/>
+                                registration number: ADMIN1002020 <br/>
+                                password: avishkar
+                            </h6>
                             <form noValidate onSubmit={fromHandler}>
                                 <div className="form-group">
                                     <label htmlFor="emailId">Registration Number</label>
