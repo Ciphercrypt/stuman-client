@@ -7,7 +7,7 @@ import store from './redux/store'
 
 import { setFacultyUser, facultyLogout } from './redux/action/facultyAction'
 
-import { setAdminUser, adminLogout, adminGetAllStudent } from './redux/action/adminAction'
+import { setAdminUser, adminLogout } from './redux/action/adminAction'
 
 import { setStudentUser, studentLogout } from './redux/action/studentAction'
 
@@ -17,16 +17,12 @@ import Home from './Pages/StudentHome'
 
 
 import StudentDetails from './Pages/StudentDetails'
-import facultyInterface from './Pages/FacultyInterface'
-import AttendenceFaculty from './Pages/AttendenceFaculty'
 
 import AdminAddStudent from './Pages/AdminAddStudent'
 import AdminAddFaculty from './Pages/AdminAddFaculty'
 import AdminAddSubject from './Pages/AdminAddSubject'
 import StudentAttendencePage from './Pages/StudentAttendencePage'
-import FacultyStudentLoginPags from './Pages/FacultyStudentLoginPags'
 import StudentUpdatePassword from './Pages/StudentUpdatePassword'
-import FacultyUpdatePassword from './Pages/FacultyUpdatePassword'
 import ForgotPassword from './Pages/ForgotPassword'
 import Chat from './Pages/Chat'
 import RecieverUserDetails from './Pages/RecieverUserDetails'
@@ -34,7 +30,6 @@ import StudentUpdateProfile from './Pages/StudentUpdateProfile'
  
 import StudentSubjectList from './Pages/Student/StudentSubjectList'
 
-import FacultyUploadMarks from './Pages/Faculty/FacultyUploadMarks'
 
 
 import StudentTestPerformace from './Pages/Student/StudentTestPerformance'

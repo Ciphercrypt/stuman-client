@@ -27,7 +27,7 @@ const Chat = (props) => {
     const [message, setMessage] = useState("")
     const [messageArray, setMessageArray] = useState([])
     const [olderMessages, setOlderMessages] = useState([])
-    const ENDPOINT = 'https://apna-erp.herokuapp.com'
+    const ENDPOINT = 'https://avi-stuman.herokuapp.com'
 
     useEffect(() => {
         let temp = props.match.params.room

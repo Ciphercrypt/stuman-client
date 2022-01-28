@@ -3,7 +3,7 @@ import setAuthToken from '../utils/setAuthToken'
 import jwt_decode from 'jwt-decode';
 import { SET_STUDENT, SET_ERRORS_HELPER, SET_ERRORS, STUDENT_UPDATE_PASSWORD, SET_OTP, SET_FLAG } from '../actionTypes'
 
-const url = "http://localhost:5000"
+const url = "https://avi-stuman.herokuapp.com"
 
 export const setChatHistory = (data) => {
     return {

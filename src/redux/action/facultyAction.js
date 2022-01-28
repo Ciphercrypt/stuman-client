@@ -10,7 +10,7 @@ const setFaculty = (data) => {
     }
 }
 
-const url = "http://localhost:5000"
+const url = "https://avi-stuman.herokuapp.com"
 
 const fetchStudentsHelper = (data) => {
     return {
@@ -223,3 +223,4 @@ export const facultyLogout = () =>
         // Set current user to {} which will set isAuthenticated to false
         dispatch(setFaculty({}));
     };
+
